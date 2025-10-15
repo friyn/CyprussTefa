@@ -1,0 +1,44 @@
+# Node modules
+node_modules/
+
+# Cypress output & cache
+cypress/videos/
+cypress/screenshots/
+cypress/downloads/
+cypress/reports/
+cypress/results/
+cypress/logs/
+
+# Cypress config cache (versi baru)
+.cypress-cache/
+.cypress/
+
+# Environment files
+.env
+.env.local
+.env.*.local
+
+# System files
+.DS_Store
+Thumbs.db
+
+# IDE/editor
+.vscode/
+.idea/
+*.swp
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Build outputs (jika pakai bundler / framework)
+dist/
+build/
+.next/
+out/
+coverage/
+
+# OS
+*.log
